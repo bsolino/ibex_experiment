@@ -13,7 +13,7 @@ var shuffleSequence = seq(
       seq(
         randomize("practice_practice"),
         "practice_distraction",
-        "test_practice",
+        "test_practice"
       )
     ),
     "practice_conclusion",
@@ -22,14 +22,17 @@ var shuffleSequence = seq(
       seq(
         // Trial 1
         randomize(
-            shuffle("trial_1_female","trial_1_male","trial_1_neutral")
+          shuffle("trial_1_female","trial_1_male","trial_1_neutral")
         ),
         "distraction_1",
         "test_1",
 
+        // Intermission
+        "intermission",
+
         // Trial 2
         randomize(
-            shuffle("trial_2_female","trial_2_male","trial_2_neutral")
+          shuffle("trial_2_female","trial_2_male","trial_2_neutral")
         ),
         "distraction_2",
         "test_2"
@@ -138,7 +141,7 @@ var items = [
           "</div>"
     }],
 
-    ["practice_instructions_1", "Message", {
+    ["practice_instructions_3", "Message", {
         transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
@@ -160,11 +163,33 @@ var items = [
 
 
     //
+    // Intermission
+    //
+    ["intermission", "Message", {
+        transfer: null,
+        html: "<div style=\"width: 40em;\">" +
+          "<p style=\"text-align: justified;\">" +
+          // Intermission message
+          "You have finished the first half of the experiment.<br/>" +
+          "Take a short break and continue when you are ready" +
+          "</p>" +
+          "</div>"
+    }],
+
+
+    //
     // Final message
     //
     ["conclusion", "Message", {
         transfer: null,
-        html: "<p>TODO: CONCLUSION</p>"}], // TODO
+        html: "<div style=\"width: 40em;\">" +
+          "<p style=\"text-align: justified;\">" +
+          // Conclusion message
+          "Thank you very much for your time.<br/>" +
+          "If you wish to know more about this topic please email <a href=\"mailto:e.friscione@students.uu.nl\">Elisa Friscione</a>, <a href=\"mailto:t.schaap@students.uu.nl\">Tamar Schaap</a> or <a href=\"mailto:b.solinofernandez@students.uu.nl\">Breixo Soli&ntilde;o</a>" +
+          "</p>" +
+          "</div>"
+    }],
 
 
 
