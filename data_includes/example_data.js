@@ -174,7 +174,7 @@ var items = [
     // Intermission
     //
     ["intermission", "Message", {
-        transfer: null,
+        transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
           // Intermission message
@@ -207,12 +207,15 @@ var items = [
     [["practice_practice",9901],"Message",{html:"eat"}],
     [["practice_practice",9901],"Message",{html:"eat"},
         "Message", {html: {include: "write_similar.html"}}],
+
     [["practice_practice",9902],"Message",{html:"walk"},
         "Message", {html: {include: "write_similar.html"}}],
     [["practice_practice",9902],"Message",{html:"walk"}],
+
     [["practice_practice",9903],"Message",{html:"read"}],
     [["practice_practice",9903],"Message",{html:"read"},
         "Message", {html: {include: "write_similar.html"}}],
+
     [["practice_practice",9904],"Message",{html:"play"},
         "Message", {html: {include: "write_similar.html"}}],
     [["practice_practice",9904],"Message",{html:"play"}],
