@@ -17,6 +17,7 @@ var shuffleSequence = seq(
       )
     ),
     "practice_conclusion",
+    "practice_conclusion",
     sepWith(
       "word_sep",
       seq(
