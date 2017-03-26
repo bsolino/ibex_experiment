@@ -41,7 +41,15 @@ var shuffleSequence = seq(
     "send_results",
     "conclusion"
 );
-var practiceItemTypes = ["practice_instructions", "practice_practice", "practice_distraction", "test_practice"];
+var practiceItemTypes = [
+  "practice_instructions_1",
+  "practice_instructions_2",
+  "practice_instructions_3",
+  "practice_practice",
+  "practice_distraction",
+  "test_practice",
+  "practice_conclusion"
+];
 var manualSendResults = true;
 
 var defaults = [
