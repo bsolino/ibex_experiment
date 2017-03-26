@@ -1,29 +1,38 @@
 var shuffleSequence = seq(
     "intro",
-    "survey",
     sepWith(
-        "word_sep",
-        seq(
-            // Practice
-            "practice_instructions",
-            randomize("practice_practice"),
-            "practice_distraction",
-            "test_practice",
-            "practice_conclusion",
+      "word_sep",
+      seq("survey")
+    ),
+    // Practice
+    "practice_instructions_1",
+    "practice_instructions_2",
+    "practice_instructions_3",
+    sepWith(
+      "word_sep",
+      seq(
+        randomize("practice_practice"),
+        "practice_distraction",
+        "test_practice",
+      )
+    ),
+    "practice_conclusion",
+    sepWith(
+      "word_sep",
+      seq(
+        // Trial 1
+        randomize(
+            shuffle("trial_1_female","trial_1_male","trial_1_neutral")
+        ),
+        "distraction_1",
+        "test_1",
 
-            // Trial 1
-            randomize(
-                shuffle("trial_1_female","trial_1_male","trial_1_neutral")
-            ),
-            "distraction_1",
-            "test_1",
-
-            // Trial 2
-            randomize(
-                shuffle("trial_2_female","trial_2_male","trial_2_neutral")
-            ),
-            "distraction_2",
-            "test_2"
+        // Trial 2
+        randomize(
+            shuffle("trial_2_female","trial_2_male","trial_2_neutral")
+        ),
+        "distraction_2",
+        "test_2"
         )
     ),
     "send_results",
@@ -91,7 +100,7 @@ var items = [
     // Practice messages
     //
 
-    ["practice_instructions", "Message", {
+    ["practice_instructions_1", "Message", {
         transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
@@ -103,7 +112,7 @@ var items = [
     }],
 
 
-    [["practice_instructions", 9000], "Message", {
+    [["practice_instructions_2", 9000], "Message", {
         transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
@@ -116,7 +125,7 @@ var items = [
           "</div>"
     }],
 
-    [["practice_instructions", 9000], "Message", {
+    [["practice_instructions_2", 9000], "Message", {
         transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
@@ -129,7 +138,7 @@ var items = [
           "</div>"
     }],
 
-    ["practice_instructions", "Message", {
+    ["practice_instructions_1", "Message", {
         transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
