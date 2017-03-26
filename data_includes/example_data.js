@@ -17,7 +17,6 @@ var shuffleSequence = seq(
       )
     ),
     "practice_conclusion",
-    "practice_conclusion",
     sepWith(
       "word_sep",
       seq(
@@ -205,6 +204,11 @@ var items = [
     //
     // Practice words
     //
+
+    ["test_practice", "Form", {
+        html: { include: "test_practice.html" },
+        validators: {}
+    }],
     [["practice_practice",9901],"Message",{html:"eat"}],
     [["practice_practice",9901],"Message",{html:"eat"},
         "Message", {html: {include: "write_similar.html"}}],
@@ -220,11 +224,6 @@ var items = [
     [["practice_practice",9904],"Message",{html:"play"},
         "Message", {html: {include: "write_similar.html"}}],
     [["practice_practice",9904],"Message",{html:"play"}],
-
-    ["test_practice", "Form", {
-        html: { include: "test_practice.html" },
-        validators: {}
-    }],
 
 
     //
