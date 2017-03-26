@@ -12,8 +12,8 @@ var shuffleSequence = seq(
       "word_sep",
       seq(
         randomize("practice_practice"),
-        "practice_distraction",
-        "test_practice"
+          "practice_distraction",
+          "test_practice"
       )
     ),
     "practice_conclusion",
