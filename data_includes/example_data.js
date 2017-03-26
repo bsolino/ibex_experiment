@@ -12,8 +12,8 @@ var shuffleSequence = seq(
       "word_sep",
       seq(
         randomize("practice_practice"),
-          "practice_distraction",
-          "test_practice"
+        "practice_distraction",
+        "test_practice"
       )
     ),
     "practice_conclusion",
@@ -122,27 +122,27 @@ var items = [
           "</div>"
     }],
 
-
-    [["practice_instructions_2", 9000], "Message", {
-        transfer: "click",
-        html: "<div style=\"width: 40em;\">" +
-          "<p style=\"text-align: justified;\">" +
-          // Practice message Experiment group
-          "You will see words pop up on a screen.<br/>" +
-          "During this time and before the next word shows up, you will be asked to think about a word you associate with the presented word.<br/>" +
-          "Following the words you will be asked to solve some simple math problems (remember PEMDAS – parentheses, exponents, multiplication, division, addition, subtraction).<br/>" +
-          "Finally, you will be asked a couple follow-up questions." +
-          "</p>" +
-          "</div>"
-    }],
-
-    [["practice_instructions_2", 9000], "Message", {
+    [["practice_instructions_2", 9999], "Message", {
         transfer: "click",
         html: "<div style=\"width: 40em;\">" +
           "<p style=\"text-align: justified;\">" +
           // Practice message Control group
           "You will see words pop up on a screen.<br/>" +
           "Pay close attention to these presented words.<br/>" +
+          "Following the words you will be asked to solve some simple math problems (remember PEMDAS – parentheses, exponents, multiplication, division, addition, subtraction).<br/>" +
+          "Finally, you will be asked a couple follow-up questions." +
+          "</p>" +
+          "</div>"
+    }],
+
+
+    [["practice_instructions_2", 9999], "Message", {
+        transfer: "click",
+        html: "<div style=\"width: 40em;\">" +
+          "<p style=\"text-align: justified;\">" +
+          // Practice message Experiment group
+          "You will see words pop up on a screen.<br/>" +
+          "During this time and before the next word shows up, you will be asked to think about a word you associate with the presented word.<br/>" +
           "Following the words you will be asked to solve some simple math problems (remember PEMDAS – parentheses, exponents, multiplication, division, addition, subtraction).<br/>" +
           "Finally, you will be asked a couple follow-up questions." +
           "</p>" +
