@@ -474,9 +474,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -487,9 +485,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -500,9 +496,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -513,9 +507,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -526,9 +518,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -539,9 +529,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -552,9 +540,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -565,9 +551,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -578,9 +562,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -591,9 +573,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -604,9 +584,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -617,9 +595,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -630,9 +606,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -643,9 +617,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -656,9 +628,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -669,9 +639,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -682,9 +650,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -695,9 +661,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_1", "Form",{
@@ -708,9 +672,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
 
@@ -726,9 +688,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -739,9 +699,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -752,9 +710,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -765,9 +721,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -778,9 +732,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -791,9 +743,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -804,9 +754,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -817,9 +765,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -830,9 +776,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -843,9 +787,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -856,9 +798,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -869,9 +809,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -882,9 +820,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -895,9 +831,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -908,9 +842,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -921,9 +853,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -934,9 +864,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -947,9 +875,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -960,9 +886,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
     ["distraction_2", "Form",{
@@ -973,9 +897,7 @@ var items = [
         "<label class=\"error\" for=\"result\" />" +
         "</p>" +
         "</div>",
-      validators: {
-          result: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018result\u2019"; }
-      }
+      validators: { }
     }],
 
 
